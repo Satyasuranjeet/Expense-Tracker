@@ -9,10 +9,15 @@
   <h2>Installation</h2>
   <ol>
     <li>Clone the repository:<br>
-      <code>git clone https://github.com/your-username/expense-tracker-html.git</code></li>
+      <code>git clone git clone https://github.com/Satyasuranjeet/expense-tracker-react.git</code></li>
     <li>Navigate to the project directory:<br>
-      <code>cd expense-tracker-html</code></li>
-    <li>Open the <code>index.html</code> file in your web browser to access the Expense Tracker HTML app.</li>
+      <code>cd expense-tracker-react</code></li>
+    <li>Install the dependencies:<br>
+        <code>index.html</code></li>
+    <li>Start the development server:<br>
+    <code>npm start</code></li>
+    <li>Open your web browser and visit <a href="http://localhost:3000">http://localhost:3000</a> to access the Expense Tracker React app.</li>
+
   </ol>
 
   <h2>Usage</h2>
@@ -39,4 +44,4 @@
 
   
   <h2>Contact</h2>
-  <p>If you have any questions or need further assistance, please email me at <a href="mailto:satyajena911@gmail.com">your-email@example.com</a>.</p>
+  <p>If you have any questions or need further assistance, please email me at <a href="mailto:satyajena911@gmail.com">Gmail</a>.</p>
