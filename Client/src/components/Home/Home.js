@@ -11,7 +11,7 @@ const Home = () => {
 
   const AddExpenseHandler = async (expense) => {
     try {
-      const response = await fetch('http://localhost:8080/push-data', {
+      const response = await fetch('https://backend-expense-tracker-0qdz.onrender.com/push-data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -30,7 +30,7 @@ const Home = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:8080/get-data');
+      const response = await fetch('https://backend-expense-tracker-0qdz.onrender.com/get-data');
       const result = await response.json();
 
       // Ensure result is an array
